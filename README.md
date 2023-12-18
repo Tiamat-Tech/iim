@@ -2,16 +2,24 @@
 
 <https://youtu.be/C7A3-ycCRWU>
 
-<img width="674" alt="screenshot 2019-02-03 at 22 35 58" src="https://user-images.githubusercontent.com/152863/52183862-2b1fdf00-2804-11e9-94b4-17cdb73bd7bf.png">
+<img src="https://bafybeigyvdbj3vxzkckpicj5lys7m4d7euvtvobcollw4gwrott2nnkyji.ipfs.w3s.link/iim.png" width="710" />
 
 [![codecov](https://img.shields.io/codecov/c/github/alanshaw/iim.svg?style=flat-square)](https://codecov.io/gh/alanshaw/iim)
 [![CI](https://img.shields.io/github/actions/workflow/status/alanshaw/iim/js-test-and-release.yml?branch=master\&style=flat-square)](https://github.com/alanshaw/iim/actions/workflows/js-test-and-release.yml?query=branch%3Amaster)
 
 > IPFS install manager
 
-# About
+## Install
 
-## Example - Use the latest version of Kubo
+```console
+$ npm i -g iim
+```
+
+Note: Windows not yet supported!
+
+## Usage
+
+**Example - Use the latest version of Kubo**
 
 ```sh
 $ iim use kubo
@@ -28,7 +36,7 @@ $ ipfs version
 kubo version: 0.24.0
 ```
 
-## Example - Use Kubo at version 0.23.0
+**Example - Use Kubo at version 0.23.0**
 
 ```sh
 $ iim use kubo 0.23
@@ -42,7 +50,7 @@ $ iim use kubo 0.23
 🚀 IPFS is ready to use
 
 $ ipfs version
-kubo version: 0.24.0
+kubo version: 0.23.0
 ```
 
 ## How does it work?
@@ -74,22 +82,6 @@ Don't worry! Mostly everything worked fine - you just don't have permission to w
 
 Feel free to dive in! [Open an issue](https://github.com/alanshaw/iim/issues/new) or submit PRs.
 
-# Install
-
-```console
-$ npm i iim
-```
-
-Note: Windows not yet supported!
-
-# API Docs
-
-- <https://alanshaw.github.io/iim>
-
-# License
+## License
 
 [MIT](LICENSE) © Alan Shaw
-
-# Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
